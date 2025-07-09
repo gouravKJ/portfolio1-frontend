@@ -406,7 +406,7 @@ useEffect(()=>{
 </section>
 
 
-                <section id='contact' className="bg-black text-white px-6 py-12  font-mono scroll-mt-22">
+                <section id='contact' className="bg-black text-white px-6 py-12  font-mono scroll-mt-24">
                     <MdMail className="text-4xl mx-auto" data-aos='fade-left'/>
                     <h2  className="text-3xl font-bold text-center "> Contact <span className="text-[#A7FC00]">Me</span></h2>
                     <div className="w-32 h-1 bg-[#A7FC00] mx-auto mb-12 mt-4 shadow-[0_0_15px_5px_#A7FC00]"></div>
