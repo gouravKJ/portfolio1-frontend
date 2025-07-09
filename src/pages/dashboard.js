@@ -13,7 +13,7 @@ import myphoto4 from '../assets/Screenshot 2025-07-09 131658.png';
 import AOS from 'aos';
 import { MdMail } from "react-icons/md";
 import {  toast } from 'react-toastify';
-import Navbar from './components/navbar';
+import Navbar from '../components/navbar';
   
 
 
