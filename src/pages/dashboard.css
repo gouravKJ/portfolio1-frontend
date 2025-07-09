@@ -1,0 +1,53 @@
+.photo {
+   margin-top: 15px; 
+    width: 250px; 
+    height: 250px;
+    border-radius: 60%; 
+    object-fit: cover;
+   object-position: top; 
+      background: #A7FC00;
+     animation: neon-glow 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon-glow {
+  0% {
+    box-shadow: 0 0 10px #A7FC00, 0 0 20px #A7FC00, 0 0 30px #A7FC00;
+  }
+  100% {
+    box-shadow: 0 0 20px #A7FC00, 0 0 40px #A7FC00, 0 0 60px #A7FC00;
+  }
+}
+    .gourav{
+        color:#A7FC00;
+
+    }
+    .dev{
+        text-align: center;
+        margin-top: 4px;
+     color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.hire{
+    width: 85px;
+    height: 45px;
+border-radius: 3px;
+color: black;
+font-size: large;
+}
+
+.gear{
+  display: inline-block;
+  animation:spin 3s linear infinite;
+  font-size: 2rem;
+}
+@keyframes spin {
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
