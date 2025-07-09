@@ -139,7 +139,7 @@ useEffect(()=>{
     
 
         return(
-            <div className="bg-white">
+            <div className="w-full overflow-x-hidden bg-white">
     
                 <section id='intro' className="flex flex-col items-center justify-between pt-24 px-6 py-12 bg-[#000814] text-white scroll-mt-24">
                     <img  className='photo'src={myPhoto} title='photo'/>
