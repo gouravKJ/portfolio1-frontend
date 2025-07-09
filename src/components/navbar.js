@@ -6,7 +6,8 @@ function Navbar(){
     const[isopen,setisopen]=useState(false);
 
     return(
-        <nav style={{backgroundColor:'#000814'}} className=" px-4 py-3 shadow-md sticky top-0 z-50 border-b-4 drop-shadow-lg">
+         <nav className="sticky top-0 z-[999] bg-[#000814] px-4 py-3 shadow-md border-b-4 drop-shadow-lg">
+
             <div className="flex justify-between items-center">
             <h1 onClick={()=>window.scrollTo({behavior:'smooth',top:0})} className="text-white text-3xl font-bold  ml-2 mt-2 font-mono">Gourav<span style={{color:'#A7FC00'}}>KJ</span></h1>
             <ul style={{color:'#A7FC00'}} className="hidden md:flex gap-10 text-xl font-mono ml-2 px-8 ">
