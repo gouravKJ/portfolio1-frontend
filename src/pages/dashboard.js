@@ -359,9 +359,10 @@ useEffect(()=>{
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  ">
     {projects.map((project, index) => (
       <div key={index} className="border p-4 border-white bg-black rounded shadow 
-             transition-all duration-300 transform hover:scale-105 
+             transition-transform duration-200 ease-in-out 
+             hover:scale-105 active:scale-95 
              hover:shadow-[0_0_20px_#A7FC00] hover:border-[#A7FC00] 
-             hover:bg-[#0a0a0a] " data-aos={
+             hover:bg-[#0a0a0a]" data-aos={
    window.innerWidth<768? index%2===0? 'fade-left':'fade-right':'fade-up'
        } >
         <img src={project.image} alt={project.title} className="w-full h-50 lg:h-60 object-cover rounded mb-2 " />
