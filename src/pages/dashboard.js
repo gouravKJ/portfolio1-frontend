@@ -44,8 +44,8 @@ function Dashboard(){
 
 
         image:myphoto4,
-        github:'',
-        live:'https://gouravkj.vercel.app/',
+        github:'https://github.com/gouravKJ/portfolio-frontend.git',
+        live:'https://portfolio1-frontend.vercel.app/',
       techStack: [
   <FaReact className="text-[#61DAFB] text-3xl" title="React" />,
   <FaNodeJs className="text-[#3C873A] text-3xl" title="Node.js" />,
